@@ -1,0 +1,22 @@
+MINI-COMPILER PROJECT: MINI-LANGUAGE SPECIFICATION
+
+* AI Assistance Disclosure: This language specification draft was 
+  generated with AI assistance as permitted by course guidelines.
+
+1. OVERVIEW
+This document defines the lexical and grammar rules for Phase 1 of the 
+Mini-Compiler project.
+
+2. KEYWORDS
+The following words are reserved and cannot be used as identifiers:
+- int, float, bool, string, if, else, while, return, print
+
+3. OPERATORS & DELIMITERS
+- Arithmetic: +, -, *, /
+- Assignment: =
+- Comparison: ==, !=, <, >, <=, >=
+- Delimiters / Punctuation: (, ), {, }, ;, ,
+
+4. IDENTIFIERS & LITERALS
+- Identifiers: Must start with a letter or underscore (_).
+- Integer/Float/String Literals and single-line comments (//) supported.
